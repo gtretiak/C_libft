@@ -13,21 +13,19 @@ The primary goal of Libft was to:
 The library is divided into two main parts:
 
 Part 1: Libc Function Reimplementations where the essential standard C library functions were recreated with identical behavior to their original counterparts, including:
-
-Character Classification Functions: ft_isalpha, ft_isdigit, ft_isalnum, ft_isascii, ft_isprint
-String Manipulation: ft_strlen, ft_strlcpy, ft_strlcat, ft_strchr, ft_strrchr, ft_strncmp, ft_strnstr
-Memory Manipulation: ft_memset, ft_bzero, ft_memcpy, ft_memmove, ft_memchr, ft_memcmp
-Character Conversion: ft_toupper, ft_tolower
-String to Number Conversion: ft_atoi
-Memory Allocation: ft_calloc, ft_strdup
+- Character Classification Functions: ft_isalpha, ft_isdigit, ft_isalnum, ft_isascii, ft_isprint
+- String Manipulation: ft_strlen, ft_strlcpy, ft_strlcat, ft_strchr, ft_strrchr, ft_strncmp, ft_strnstr
+- Memory Manipulation: ft_memset, ft_bzero, ft_memcpy, ft_memmove, ft_memchr, ft_memcmp
+- Character Conversion: ft_toupper, ft_tolower
+- String to Number Conversion: ft_atoi
+- Memory Allocation: ft_calloc, ft_strdup
 
 Part 2: Additional Functions.
 This part contains several useful functions not found in the standard library, including:
-
-String Processing: ft_substr, ft_strjoin, ft_strtrim, ft_split
-Number to String Conversion: ft_itoa
-Function Application to Strings: ft_strmapi, ft_striteri
-File Descriptor Output: ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd
+- String Processing: ft_substr, ft_strjoin, ft_strtrim, ft_split
+- Number to String Conversion: ft_itoa
+- Function Application to Strings: ft_strmapi, ft_striteri
+- File Descriptor Output: ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd
 
 ## What does it boil down to?
 1. Defensive Programming: Carefully handling edge cases and null pointers to ensure robustness
