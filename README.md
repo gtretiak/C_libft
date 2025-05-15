@@ -40,10 +40,10 @@ This part contains several useful functions not found in the standard library, i
 2. Compile the library with make command
 
 ## Real-World Applications
-Systems Programming: The memory management and low-level string handling are essential for developing operating systems, embedded systems, and device drivers where efficiency and resource management are critical.
-Security-Critical Apps: The defensive programming practices and careful memory handling are vital for creating secure software in fields like finance, healthcare, and cybersecurity, where preventing buffer overflows and memory leaks is essential.
-Performance-Optimized Software: The focus on algorithmic efficiency makes allows to develop high-performance computing appslications, real-time systems, and apps that process large amounts of data.
-Cross-Platform Development: Standard functions implementation teaches about what compatibility across different systems is, and how to develop multi-platform applications what's common in industries like gaming, multimedia, and enterprise software.
+- Systems Programming: The memory management and low-level string handling are essential for developing operating systems, embedded systems, and device drivers where efficiency and resource management are critical.
+- Security-Critical Apps: The defensive programming practices and careful memory handling are vital for creating secure software in fields like finance, healthcare, and cybersecurity, where preventing buffer overflows and memory leaks is essential.
+- Performance-Optimized Software: The focus on algorithmic efficiency makes allows to develop high-performance computing appslications, real-time systems, and apps that process large amounts of data.
+- Cross-Platform Development: Standard functions implementation teaches about what compatibility across different systems is, and how to develop multi-platform applications what's common in industries like gaming, multimedia, and enterprise software.
 
 ## Conclusion
 Libft is more than just a collection of functions — it is a tool that while creating it gives you a deep understanding of C programming fundamentals, to be able create reliable, efficient code.
