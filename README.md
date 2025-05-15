@@ -5,13 +5,18 @@ Libft is a foundational project, basically my own C library, that consists of a 
 The primary goal of Libft was to:
 
 Gain a deep understanding of how standard C library functions work by implementing them from scratch
+
 Create a reliable, personal library of functions that can be used in future projects
+
 Develop strong skills in memory management, string manipulation, and function design
+
 Learn to write clean, efficient, and well-tested code following strict programming standards
+
 Build a foundation for understanding higher-level abstractions and data structures
 
 ## Key Concepts & Features
 The library is divided into two main parts:
+
 Part 1: Libc Function Reimplementations where the essential standard C library functions were recreated with identical behavior to their original counterparts, including:
 
 Character Classification Functions: ft_isalpha, ft_isdigit, ft_isalnum, ft_isascii, ft_isprint
@@ -21,7 +26,7 @@ Character Conversion: ft_toupper, ft_tolower
 String to Number Conversion: ft_atoi
 Memory Allocation: ft_calloc, ft_strdup
 
-Part 2: Additional Functions
+Part 2: Additional Functions.
 This part contains several useful functions not found in the standard library, including:
 
 String Processing: ft_substr, ft_strjoin, ft_strtrim, ft_split
