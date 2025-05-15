@@ -3,16 +3,11 @@
 Libft is a foundational project, basically my own C library, that consists of a collection of carefully implemented functions. This library serves as a cornerstone for future C programming work, providing reliable implementations of any possibly needed functions.
 ## Project Purpose & Objectives
 The primary goal of Libft was to:
-
-Gain a deep understanding of how standard C library functions work by implementing them from scratch
-
-Create a reliable, personal library of functions that can be used in future projects
-
-Develop strong skills in memory management, string manipulation, and function design
-
-Learn to write clean, efficient, and well-tested code following strict programming standards
-
-Build a foundation for understanding higher-level abstractions and data structures
+1. Gain a deep understanding of how standard C library functions work by implementing them from scratch
+2. Create a reliable, personal library of functions that can be used in future projects
+3. Develop strong skills in memory management, string manipulation, and function design
+4. Learn to write clean, efficient, and well-tested code following strict programming standards
+5. Build a foundation for understanding higher-level abstractions and data structures
 
 ## Key Concepts & Features
 The library is divided into two main parts:
