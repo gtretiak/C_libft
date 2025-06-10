@@ -6,7 +6,7 @@
 /*   By: gtretiak <gtretiak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 13:30:34 by gtretiak          #+#    #+#             */
-/*   Updated: 2024/11/08 16:11:57 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/03/09 15:40:59 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,14 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <fcntl.h>
+# include <stdarg.h>
+# include <stdint.h>
+# include <limits.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 10
+# endif
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -53,5 +61,16 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+
+int		ft_printf(const char *format, ...);
+int		ft_print_address(unsigned long x);
+int		ft_print_hex(char c, unsigned int x);
+int		ft_take_address(void *arg);
+int		ft_check_else(char c, va_list args);
+int		ft_check_numbers(char c, va_list args);
+int		ft_check_chars(char c, va_list args);
+char	*ft_unitoa(unsigned int n);
+
+char	*get_next_line(int fd, int check_input);
 
 #endif
