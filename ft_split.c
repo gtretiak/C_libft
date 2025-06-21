@@ -6,7 +6,7 @@
 /*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 19:05:30 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/01/27 12:10:37 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/06/21 09:19:24 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,10 @@ int	main(void)
 {
 	int	i;
 	char	**tabstr;
+	char	s[] = "!!ab!.cd!!!!!!(yz)!!!";
+	char	c = '!';
+	printf("str:%s\nchar:%c\n", s, c);
+	printf("s1:%s\ns2:%s\ns3:%s\n", ft_split(s, c)[0], ft_split(s, c)[1], ft_split(s, c)[2]);
 	if (!(tabstr = ft_split("xxxhello!", 'x')))
 		printf("NULL");
 	else
