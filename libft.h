@@ -6,7 +6,7 @@
 /*   By: gtretiak <gtretiak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 13:30:34 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/03/09 15:40:59 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/10/30 18:43:55 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,9 @@ int		ft_check_chars(char c, va_list args);
 char	*ft_unitoa(unsigned int n);
 
 char	*get_next_line(int fd, int check_input);
+
+char	**ft_split_whitespace(char const *s);
+void	ft_free_array_str(char **arr);
+void	ft_free_array_strn(char **arr, int n);
 
 #endif

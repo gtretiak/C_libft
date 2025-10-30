@@ -6,13 +6,13 @@
 /*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 11:16:26 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/16 11:40:53 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/10/30 18:43:38 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_countwords(const char *s)
+static int	ft_countwords(const char *s)
 {
 	size_t	i;
 	size_t	count;
@@ -45,7 +45,7 @@ static int	ft_free(char **arr, size_t j)
 	return (1);
 }
 
-int	ft_filler(char **arr, char const *s, size_t num)
+static int	ft_filler(char **arr, char const *s, size_t num)
 {
 	size_t	i;
 	size_t	j;
