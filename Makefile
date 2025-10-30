@@ -6,7 +6,7 @@
 #    By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/24 13:30:50 by gtretiak          #+#    #+#              #
-#    Updated: 2025/03/06 13:48:58 by gtretiak         ###   ########.fr        #
+#    Updated: 2025/10/30 19:34:22 by gtretiak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 OBJECTS = $(SRCS:.c=.o)
@@ -19,7 +19,9 @@ SRCS = ft_isalpha.c ft_isascii.c ft_isdigit.c ft_strncmp.c ft_strlen.c \
        ft_putendl_fd.c ft_putnbr_fd.c \
        ft_printf.c ft_unitoa.c ft_print_address.c ft_take_address.c \
        ft_print_hex.c ft_check_chars.c ft_check_numbers.c ft_check_else.c \
-       get_next_line.c get_next_line_bonus.c
+       get_next_line.c get_next_line_bonus.c \
+       ft_free_array_int.c ft_free_array_str.c ft_split_whitespace.c \
+       ft_isspace.c
 
 HEAD = libft.h
 NAME = libft.a
